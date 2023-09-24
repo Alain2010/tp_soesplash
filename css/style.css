@@ -32,7 +32,6 @@ header small{
     top: 3em;
     width: 75%;
     margin: 0 auto;
-    border: 1px solid red;
 }
 #cart{
     float: right;
@@ -118,7 +117,7 @@ main h2{
 }
 #select h1{
     position: absolute;
-    top: 46em;
+    top: 33em;
     margin-left: 1em;
 }
 #news{

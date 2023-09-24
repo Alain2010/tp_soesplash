@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@0,6..96;1,6..96&family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz@0,6..96;1,6..96&family=Fuggles&family=Roboto:wght@100;300&display=swap');
+body{
+    margin: 0;
+    background-color: #F2F2F2;
+    height: auto;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    height: 20em;
+    background-color: #F4D5F5;
+}
+header small{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.topbar{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 1em;
+    background-color: black;
+    color: white;
+}
+.container{
+    position: relative;
+    height: 100%;
+    top: 3em;
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+#cart{
+    float: right;
+    display: flex;
+}
+#cart a{
+    display: block;
+    position: relative;
+    top: 2em;
+    margin-bottom: 2em;
+}
+span{
+    display: block;
+    text-align: right;
+    font-weight: bolder;
+}
+.bi{
+    font-size: 2.3em;
+    padding-top: 0.325em;
+    margin-left: 0.125em;
+    color: #ECBCEE;
+}
+nav{
+    margin-top: 2em;
+    clear: both;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: #7F6480;
+}
+main{
+    width: 75%;
+}
+main span{
+    text-align: left;
+}
+main h2{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+#slider{
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+#slider img{
+    width: 95%;
+    margin-top: 1.2em;
+}
+#slider h2{
+    position: absolute;
+    top: 0;
+    background-color: #F8E0F8;
+    padding: 0.5em;
+    filter: opacity(80%);
+}
+#slider span{
+    color: rgb(105, 104, 104);
+}
+#select{
+    width: 100%;
+    margin-top: 3em;
+    padding-top: 5em;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    align-items: first baseline;
+}
+#select article{
+    margin: 2em;
+    opacity: 0.6;
+    color: rgb(103, 103, 103);
+}
+#select article:nth-child(5){
+    opacity: 9;
+    color: black;
+}
+#select h1{
+    position: absolute;
+    top: 46em;
+    margin-left: 1em;
+}
+#news{
+    margin-top: 2em;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#news h2{
+    width: 100%;
+}
+#news h3{
+    font-style: italic;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+#news small{
+    display: block;
+    text-align: center;
+    font-size: 1.1em;
+    font-style: italic;
+    width: 100%;
+    letter-spacing: 0.123em;
+    font-family: 'Bodoni Moda', serif;
+}
+#new{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 30%;
+}
+#new h3,small{
+    text-align: center;
+ 
+}
+#new h2{
+    border: none;
+    background-color: #E932C8;
+    text-align: center;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+}
+#new h2 img{
+   width: 9%;
+   height: 0.9em;
+   position: relative;
+   top: 0.1em;
+   margin-right: 0.3em;
+   
+}
+#best h2 img{
+   width: 9%;
+   height: 0.9em;
+   position: relative;
+   top: 0.1em;
+   margin-right: 0.3em;
+   
+}
+#best h2{
+    border: none;
+    background-color: #98BF45;
+    text-align: center;
+    width: 85%;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0;
+}
+#crush h2 img{
+    width: 9%;
+    height: 0.9em;
+    position: relative;
+    top: 0.1em;
+    margin-right: 0.3em;
+    
+ }
+ #crush h2{
+    border: none;
+    background-color: #0399B1;
+     text-align: center;
+     width: 85%;
+     display: flex;
+     flex-direction: row;
+     padding-bottom: 0;
+ }
+#best{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 30%;
+}
+#best h3,small{
+    text-align: center;
+}
+#crush{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 30%;
+}
+#crush h3,small{
+    text-align: center;
+}
+footer{
+    margin-top: 1.2em;
+    display: flex;
+    flex-flow: column wrap;
+}
+#info{
+    width: 100%;
+    height: 6em;
+    background-color: #E4AFE3;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#info .bi{
+    font-size: 1.5em;
+    color: #B183B4;
+}
+#info article{
+    padding-left: 0.85em;
+    padding-right: 0.85em;
+}
+ 
+#bottombar{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: #F4D5F5;
+}
+
+ul li{
+    list-style: none;
+    text-align: center;
+    margin: 1em;
+}
+article{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}

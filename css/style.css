@@ -121,6 +121,7 @@ main h2{
     margin-left: 1em;
 }
 #news{
+    margin-bottom: 5.5em;
     margin-top: 2em;
     position: relative;
     display: flex;
